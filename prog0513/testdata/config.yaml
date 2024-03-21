@@ -1,0 +1,50 @@
+type: default
+time: 1000ms
+memory: 256MB
+checker_type: testlib
+checker: checker.cc
+langs:
+- c.c99
+- c.c11
+- cc.cc11
+- cc.cc14
+- cc.cc17
+- cc.cc2a
+- cc.cc11o2
+- cc.cc14o2
+- cc.cc17o2
+- cc.cc2ao2
+- py.py3
+- c
+- cc
+- py
+
+subtasks:
+  - score: 10
+    type: sum
+    cases:
+      - input: sample1.in
+        output: /dev/null
+  - score: 90
+    type: sum
+    cases:
+      - input: 1.in
+        output: /dev/null
+      - input: 2.in
+        output: /dev/null
+      - input: 3.in
+        output: /dev/null
+      - input: 4.in
+        output: /dev/null
+      - input: 5.in
+        output: /dev/null
+      - input: 6.in
+        output: /dev/null
+      - input: 7.in
+        output: /dev/null
+      - input: 8.in
+        output: /dev/null
+      - input: 9.in
+        output: /dev/null
+      - input: 10.in
+        output: /dev/null

@@ -1,0 +1,5 @@
+n = int(input())
+lst = list(map(int, input().split()))
+modified = sorted(list(set(lst)))
+print(len(modified))
+print(*modified, sep = ' ')

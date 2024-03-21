@@ -1,0 +1,29 @@
+## Problem Description
+
+A gear set has four gears. The largest gear is the gear that has the most number of teeth. In the beginning, all dots on the gears align with the arrows. Please calculate the least number of rounds the largest gear needs to turn to align all dots on the gears with the arrows again. For example (Figure 1), the gears have $6$, $8$, $16$, and $24$ teeth. After the largest gear turns two rounds, all dots align with the arrows again.
+
+![img](file://1.png)
+
+## Input Format
+
+There are multiple sets of inputs. Each set contains four integers for the number of teeth of four gears. Also, the first integer in each set is the maximum among the four integers. All inputs and all arithmetics are in int.
+
+## Output Format
+
+For each set, output one line containing one integer, which represents the minimum rounds that the largest gear turns.
+
+## Sample
+
+```input1
+24 6 8 16
+15 15 9 3
+```
+
+```output1
+2
+3
+```
+
+## Source
+
+Judge Girl
